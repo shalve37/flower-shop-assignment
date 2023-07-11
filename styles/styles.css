@@ -71,14 +71,14 @@
 
 }
 
-.featured-title {
+.primary-title {
     color: #272727;
     font-size: 30px;
     font-weight: 800;
     padding-bottom: 20px;
 }
 
-.featured-description {
+.primary-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -209,5 +209,49 @@
     display: flex;
     gap: 10px;
     justify-content: space-around;
-    padding: 50px 0px 100px 0px;
+    padding: 50px 0px 50px 0px;
+}
+
+.deal-container {
+    margin: 40px 140px;
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    text-align: center;
+    padding: 120px 140px;
+}
+
+.deal-text {
+    text-align: center;
+}
+
+.deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+.deal-form {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.deal-email {
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 20px;
 }
