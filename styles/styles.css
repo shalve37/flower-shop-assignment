@@ -180,3 +180,34 @@
     line-height: 30px;
     padding-bottom: 15px;
 }
+
+.social-container {
+    padding: 0px 350px;
+}
+
+.social-text {
+    text-align: center;
+}
+
+.social-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.social-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 15px;
+}
+
+.social-image {
+    height: 300px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 50px 0px 100px 0px;
+}
