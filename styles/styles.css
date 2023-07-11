@@ -4,6 +4,10 @@
     font-family: 'Lato';
 }
 
+.primary-color {
+    color: #E55473
+}
+
 /* styling the header section */
 .banner-container {
     background: rgba(229, 84, 115, 0.10);
@@ -147,4 +151,32 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 35px;
+}
+
+.sale-container {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 50px 50px;
+    margin: 90px 0px;
+}
+
+.sale-text {
+    text-align: center;
+}
+
+.sale-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.sale-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 15px;
 }
