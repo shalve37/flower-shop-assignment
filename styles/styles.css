@@ -166,13 +166,6 @@
     text-align: center;
 }
 
-.sale-title {
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
-    padding-bottom: 20px;
-}
-
 .sale-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -187,21 +180,6 @@
 
 .social-text {
     text-align: center;
-}
-
-.social-title {
-    color: #272727;
-    font-family: Lato;
-    font-size: 40px;
-    font-weight: 800;
-}
-
-.social-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    padding-top: 15px;
 }
 
 .social-image {
@@ -227,21 +205,6 @@
     text-align: center;
 }
 
-.deal-title {
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
-    padding-bottom: 10px;
-}
-
-.deal-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    padding-bottom: 10px;
-}
-
 .deal-form {
     display: flex;
     justify-content: space-around;
@@ -249,9 +212,36 @@
 }
 
 .deal-email {
-    width: 400px;
+    width: 500px;
     height: 50px;
     border: none;
     border-radius: 8px;
     padding-left: 20px;
+}
+/* styling the footer section */
+.footer-text {
+    padding: 130px 0px;
+    text-align: center;
+    background: #111010;
+}
+
+.footer-title {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 15px;
+    font-weight: 00;
+    line-height: 30px;
+    padding: 20px 0px;
+}
+
+.copyright-text {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 14px;
+    font-weight: 400;
 }
