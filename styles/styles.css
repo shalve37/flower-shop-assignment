@@ -1,38 +1,42 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Lato';
 }
+
 /* styling the header section */
-.banner-container{
+.banner-container {
     background: rgba(229, 84, 115, 0.10);
     height: 100vh;
     display: flex;
-    gap:100px;
+    gap: 100px;
     justify-content: space-around;
     align-items: center;
     margin: 0px;
-    padding-top: 0px; 
+    padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 150px;
     padding-right: 150px;
-    
+
 }
-.banner-title{
+
+.banner-title {
     color: #272727;
     font-size: 60px;
     font-weight: 800;
     width: 500px;
 }
-.banner-description{
+
+.banner-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
-    font-weight: 400;   
+    font-weight: 400;
     line-height: 30px;
     padding-top: 25px;
-    padding-bottom:25px ;
+    padding-bottom: 25px;
 }
-.button-primary{
+
+.button-primary {
     color: #FFF;
     font-size: 15px;
     font-weight: 700;
@@ -41,57 +45,66 @@
     border-radius: 8px;
     background: #E55473;
 }
-.button-primary:hover{
+
+.button-primary:hover {
     cursor: pointer;
     box-shadow: 3px 5px 10px gray;
 }
-.banner-image{
+
+.banner-image {
     margin-top: 70px;
 }
-.banner-flower{
+
+.banner-flower {
     width: 435px;
     height: 600px;
 }
+
 /* styling the main section */
-.featured-text{
-    margin-top: 100px;
+.featured-text {
+    margin-top: 50px;
     text-align: center;
-   
+
 }
-.featured-title{
+
+.featured-title {
     color: #272727;
     font-size: 30px;
     font-weight: 800;
     padding-bottom: 20px;
 }
-.featured-description{
+
+.featured-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    
+
 }
-.featured-images{
+
+.featured-images {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top:30px;
+    margin-top: 30px;
 }
 
-.featured-flower-1{
+.featured-flower-1 {
     width: 250px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding: 110px 40px 0px 40px;
 
 }
-.featured-images-caption{
+
+.featured-images-caption {
     text-align: center;
     text-decoration: underline;
     font-size: 18px;
     font-weight: 700;
 }
-.featured-flower-2{
+
+.featured-flower-2 {
     width: 310px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
@@ -99,7 +112,8 @@
     align-items: center;
     padding: 95px 20px 50px 20px;
 }
-.featured-flower-3{
+
+.featured-flower-3 {
     width: 254px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
@@ -107,9 +121,30 @@
     align-items: baseline;
     padding: 70px 40px 0px 40px;
 }
-.featured-images-caption{
+
+.featured-images-caption {
     padding: 20px;
     display: flex;
     justify-content: space-around;
     text-align: center;
+}
+
+.services-container {
+    margin: 100px 50px;
+    border-radius: 8px;
+    padding: 50px 100px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-1,
+.service-2,
+.service-3 {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
 }
